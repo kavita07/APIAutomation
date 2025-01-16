@@ -1,0 +1,36 @@
+{
+  "name": "apiautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavita07/APIAutomation.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "Kavita Chavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavita07/APIAutomation/issues"
+  },
+  "homepage": "https://github.com/kavita07/APIAutomation#readme",
+  "dependencies": {
+    "@wdio/cli": "^9.5.7"
+  },
+  "devDependencies": {
+    "@types/supertest": "^6.0.2",
+    "@wdio/allure-reporter": "^9.5.0",
+    "@wdio/cucumber-framework": "^9.5.0",
+    "@wdio/local-runner": "^9.5.7",
+    "@wdio/spec-reporter": "^9.5.0",
+    "supertest": "^7.0.0"
+  }
+}
